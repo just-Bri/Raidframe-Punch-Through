@@ -1,0 +1,9 @@
+externals:
+  PunchThrough/Libs/LibStub: https://repos.wowace.com/wow/libstub/mainline/trunk
+  PunchThrough/Libs/CallbackHandler-1.0: https://repos.wowace.com/wow/callbackhandler/mainline/trunk/CallbackHandler-1.0
+  PunchThrough/Libs/AceAddon-3.0: https://repos.wowace.com/wow/ace3/mainline/trunk/AceAddon-3.0
+  PunchThrough/Libs/AceEvent-3.0: https://repos.wowace.com/wow/ace3/mainline/trunk/AceEvent-3.0
+  PunchThrough/Libs/AceDB-3.0: https://repos.wowace.com/wow/ace3/mainline/trunk/AceDB-3.0
+  PunchThrough/Libs/AceConsole-3.0: https://repos.wowace.com/wow/ace3/mainline/trunk/AceConsole-3.0
+  PunchThrough/Libs/AceGUI-3.0: https://repos.wowace.com/wow/ace3/mainline/trunk/AceGUI-3.0
+  PunchThrough/Libs/AceConfig-3.0: https://repos.wowace.com/wow/ace3/mainline/trunk/AceConfig-3.0

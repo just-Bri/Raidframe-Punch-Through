@@ -1,0 +1,12 @@
+## Interface: 120007
+## Title: Raidframe Punch-Through
+## Notes: Prevents Raidframes from eating Mouse4/Mouse5 bindings without macros.
+## Author: YourName
+## Version: 1.0.0
+## IconTexture: Interface\AddOns\PunchThrough\icon
+## SavedVariables: PunchThroughDB
+## OptionalDeps: Ace3
+
+embeds.xml
+Core.lua
+Config.lua
