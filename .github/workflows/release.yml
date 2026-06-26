@@ -25,9 +25,7 @@ jobs:
       - name: Run mise zip tasks
         run: |
           mise run zip
-          mise run zip-nolib
           mv PunchThrough.zip "PunchThrough-${{ github.event.inputs.version }}.zip"
-          mv PunchThrough-nolib.zip "PunchThrough-nolib-${{ github.event.inputs.version }}.zip"
 
       - name: Create GitHub Release
         env:
@@ -35,6 +33,5 @@ jobs:
         run: |
           gh release create "${{ github.event.inputs.version }}" \
             "PunchThrough-${{ github.event.inputs.version }}.zip" \
-            "PunchThrough-nolib-${{ github.event.inputs.version }}.zip" \
             --title "Release ${{ github.event.inputs.version }}" \
             --notes "Manual release for version ${{ github.event.inputs.version }}."
